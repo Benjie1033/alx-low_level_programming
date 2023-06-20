@@ -1,0 +1,30 @@
+# include <stdio.h>
+# include <stdlib.h>
+# include <time.h>
+
+/**
+ * main - A random number will be assigned to variable n
+ * Return: 0 (pass)
+ */
+int main(void)
+{
+	int n;
+	int m;
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	m = 9;
+	if (m > 5)
+	{
+		("Last digit of %d is %d and is grater that 5\n", n, m);
+	}
+	if (m == 0)
+	{
+		printf("Last digit of %d is %d and is 0\n", n, m);
+	}
+	if (m < 6 && m != 0)
+	{
+		printf("Last digit of %d is %d and is less that 6 and not 0\n", n, m);
+	}
+	return (0);
+}
