@@ -9,6 +9,7 @@
 int main(void)
 {
 	int n;
+
 	int m;
 
 	srand(time(0));
@@ -16,7 +17,7 @@ int main(void)
 	m = 9;
 	if (m > 5)
 	{
-		("Last digit of %d is %d and is grater that 5\n", n, m);
+		printf("Last digit of %d is %d and is grater that 5\n", n, m);
 	}
 	if (m == 0)
 	{
