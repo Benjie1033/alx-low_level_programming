@@ -7,6 +7,9 @@
 int main(void)
 {
 	char c;
+	char a;
+
+	c = a;
 
 	for (c = 'a'; c <= 'z'; c++)
 	{
@@ -14,7 +17,7 @@ int main(void)
 		{
 		continue;
 		}
-	putchar(c);
+	putchar(a);
 	}
 	putchar('\n');
 	return (0);
