@@ -1,4 +1,4 @@
-i include "main.h"
+# include "main.h"
 
 /**
  * _strspn - Function to get substring prefix
@@ -28,4 +28,6 @@ unsigned int _strspn(char *s, char *accept)
 		s++;
 		}
 	return (p);
+	}
 }
+
