@@ -1,4 +1,5 @@
 # include "main.h"
+# include <stdio.h>
 
 /**
  * print_diagsums - Sum of matrix
@@ -9,17 +10,19 @@
 
 void print_diagsums(int *a, int size)
 {
-	int one;
-	int two;
-	int z;
+	int i, one = 0, two = 0;
 
-	for (z = 0; z < size; z++)
+	for (i = 0; i < size; i++)
 	{
-		one = one + a[z * size + z];
+		one += a[i];
+		a += size;
 	}
-	for (z = size - 1; z >= 0; z--)
+	a -= size;
+
+	for (i = 0; i < size; i++)
 	{
-		two += a[z * size + (size - z - 1)];
+		two += a[i];
+		a -= size;
 	}
 	printf("%d, %d\n", one, two);
 }
