@@ -1,4 +1,5 @@
 # include "main.h"
+# include <stdio.h>
 
 /**
  * _pow_recursion - Function that returns powers
