@@ -34,7 +34,7 @@ int compare(char *s, int j, int a)
 	return (0);
 }
 /**
- * palidrome - checking for palidromes
+ * is_palidrome - checking for palidromes
  * @s: string
  * Return: 0.
  */
