@@ -2,6 +2,14 @@
 # include <stdlib.h>
 # include <stdio.h>
 
+/**
+ * main - main file containing operations
+ * @argc: no of arguments supplied
+ * @argv: array of pointers to the arg
+ *
+ * Return: 0
+ */
+
 int main(int __attribute__((__unused__)) argc, char *argv[])
 {
 	int num1, num2;
