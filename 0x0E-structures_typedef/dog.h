@@ -7,9 +7,8 @@
  * struct dog - a dog's basic info
  * @name: First
  * @age: Second
- * @owner: Third
+ * @owner: name of owner
  *
- * Description: Longer description
  */
 struct dog
 {
