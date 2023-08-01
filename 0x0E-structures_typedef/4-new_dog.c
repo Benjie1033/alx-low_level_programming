@@ -10,14 +10,11 @@
 
 int _strlen(char *s)
 {
-	int z;
+	int z = 0;
 
-	z = 0;
+	while (*s++)
 
-	while (s[z] != '\0')
-	{
-		z++;
-	}
+	z++;
 
 	return (z);
 }
@@ -33,19 +30,12 @@ int _strlen(char *s)
 
 char *_strcopy(char *dest, char *src)
 {
-	int len, i;
+	int i;
 
-	len = 0;
+	for (i = 0; src[i]; i++)
 
-	while (src[len] != '\0')
-	{
-		len++;
-	}
-
-	for (i = 0; i < len; i++)
-	{
 		dest[i] = src[i];
-	}
+
 	dest[i] = '\0';
 
 	return (dest);
