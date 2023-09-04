@@ -45,7 +45,7 @@ char **strtow(char *str)
 	if (wor == 0)
 		return (NULL);
 
-	m = (char **) malloc(sizeof(char *) *(wor + 1));
+	m = (char **) malloc(sizeof(char *) * (wor + 1));
 	if (m == NULL)
 		return (NULL);
 
