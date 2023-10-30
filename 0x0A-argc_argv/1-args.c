@@ -3,15 +3,15 @@
 
 /**
  * main - main header
- * argc: argument count
- * argv: argument vector
+ * @argc: argument count
+ * @argv: argument vector
  *
  * Return: 0
  */
 
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	(void) argv;
-	printf("argc = %d\n", argc-1);
-	return 0;
+	printf("argc = %d\n", argc - 1);
+	return (0);
 }

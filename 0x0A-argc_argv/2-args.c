@@ -3,8 +3,8 @@
 
 /**
  * main - main header
- * argc: argument count
- * argv: argument vector
+ * @argc: argument count
+ * @argv: argument vector
  *
  * Return: 0
  */
@@ -12,11 +12,12 @@
 int main(int argc, char *argv[])
 {
 	int i;
-	printf("argc = %d\n", argc-1);
+
+	printf("argc = %d\n", argc - 1);
 
 	for (i = 0; i < argc; i++)
 	{
 	printf("argv[%d] = %s\n", i, argv[i]);
 	}
-	return 0;
+	return (0);
 }
