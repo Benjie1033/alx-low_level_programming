@@ -4,7 +4,7 @@
  * print_strings - function to print a string followed by new line
  *@separator: string to be printed between numbers
  *@n: parameters
-
+ *
  *Return: 0
  */
 
